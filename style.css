@@ -1,0 +1,102 @@
+body{
+    background-image: url(background.png);
+    direction: rtl;
+    min-height: 200vh;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center; 
+    background-attachment: fixed; 
+}
+
+
+.navbar{
+    background-color: rgb(251, 216, 222);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    gap: 30px;
+    direction: rtl;
+    height: 50px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: 1000;
+}
+
+.logo-img{
+    width: 70px;
+    height: 70px;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+}
+
+
+.menu-items{
+    display:flex;
+    justify-items: center;
+    align-items: center;
+    gap: 20px;
+
+}
+
+
+.menu-items a{
+    text-decoration: none;
+    color: rgb(177, 116, 191);
+}
+
+.menu-items a:hover{
+    color: cornflowerblue;
+}
+
+.menu-items a:active{
+font-size: large;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: row-reverse; 
+    margin-top: 100px;
+    padding: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.sidebar {
+    width: 200px;
+    background-color: rgba(255, 255, 255, 0.3); 
+    padding: 20px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column; 
+    gap: 15px; 
+    height: 100%; 
+}
+
+.sidebar div a {
+    text-decoration: none;
+    color: #5d0e41;
+    font-weight: bold;
+}
+
+.welcome-header {
+    background-image: url('background.png'); 
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border-radius: 15px; 
+    margin-bottom: 20px;
+}
+
+.welcome-text {
+    width: 60%; 
+    height: auto;
+}
